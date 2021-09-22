@@ -2,7 +2,7 @@
 <html>
 	<head>
 
-		<title>OFROOT Our Promise</title>
+		<title>ofRoot Our Promise</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{ URL::asset('css/main.css') }}"/>
@@ -10,52 +10,39 @@
 	</head>
 	<body class="is-preload">
 
-		<!-- Header -->
-			<header id="header">
-				<a href="/" class="title">OFROOT</a>
-				<nav>
-					<ul>
-						<li><a href="/">Home</a></li>
-						<li><a href="/capabilities">Capabilities</a></li>
-						<li><a href="/ourmission" >Our Mission</a></li>
-                        <li><a href="/ourpromise" class="active">Our Promise</a></li>
-					</ul>
-				</nav>
-			</header>
+    <x-navbar/>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
 				<!-- Main -->
 					<section id="main" class="wrapper">
 						<div class="inner">
-							<h1 class="major">A View Of Our Promise</h1>
+							<h1 class="major">Our Promise</h1>
 							<!-- <span class="image fit"><img src="https://ik.imagekit.io/haf84bjtqnp/new_tXWmDpCqj4x?updatedAt=1632297520551" alt=""/></span> -->
-							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+							<p>
+                                You shouldnt have to worry if investing into your digital presence will bring needed or added impact, it should be a sure thing, We here at OFROOT, take a fundamental approach to growth.
+                            </p>
+                            <p>
+                                We work with you one on one to find out your pain points and then, we go to the drawing board and conduct a bit of research, and then its off to the races.
+                            </p>
+                            <p>
+                                We will deliver custom built, aws hosted ( or your choise of host) applications, we then if requested train you on the tool. <span style="color:orange;">for free.</span>
+                            </p>
+                            <p>
+                                Any additional post-production fixes or last minute changes will be free aswell until everything is smooth sailing.
+                            </p>
+                            <p>
+                                Thats the OFROOT promise.
+                            </p>
 						</div>
 					</section>
 
 			</div>
 
 		<!-- Footer -->
-			<!-- Footer -->
-			<footer id="footer" class="wrapper alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; OfRoot. All rights reserved.</li>
-					</ul>
-				</div>
-			</footer>
 
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+<x-footer/>
 
 	</body>
 </html>

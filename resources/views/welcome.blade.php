@@ -29,16 +29,16 @@
 			<div id="wrapper">
 
 				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
+					<section  style="background-color:white;" id="intro" class="wrapper fullscreen style1 fade-up">
 						<div class="inner">
-							<h1>OFROOT</h1>
-							<hr style="background-color:white;" width="50%">
+							<h1 style="color:black;">OF<span style="color:orange;">(</span>ROOT<span style="color:orange;">)</span></h1>
+							<hr style="background-color:orange;" width="50%">
 							<!-- Creating scalable technology for your business with current, secure, and trusted solutions; that way your tech worries, just like your business are up in the clouds. -->
-							<p style="color:white;">Creating scalable technology for your business operations. </br>
+							<p style="color:black;">Creating scalable technology for your business operations. </br>
 							  If its digital we build it, from the root up.</p>
 
 							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Learn more</a></li>
+								<li><a href="#one" style="background-color:orange;" class="button scrolly">Learn more</a></li>
 							</ul>
 						</div>
 
@@ -53,7 +53,7 @@
 									<h2>Our Capabilities</h2>
 									<p>We are passionate about delivering innovative solutions to fit your needs.</p>
 									<ul class="actions">
-										<li><a href="/capabilities" class="button">Learn more</a></li>
+										<li><a style="background-color:orange;" href="/capabilities" class="button">Learn more</a></li>
 									</ul>
 								</div>
 							</div>
@@ -67,7 +67,7 @@
                                         Improving and preserving the human experience, and taking care of our planet.
                                     </p>
 									<ul class="actions">
-										<li><a href="/ourmission" class="button">Learn more</a></li>
+										<li><a style="background-color:orange;" href="/ourmission" class="button">Learn more</a></li>
 									</ul>
 								</div>
 							</div>
@@ -79,7 +79,21 @@
 									<h2>WHY WE ARE DIFFERENT</h2>
 									<p>We have the ability to create turn-key or completely custom applications for your business. </p>
 									<ul class="actions">
-										<li><a href="/whyWeAreDifferent" class="button">Learn more</a></li>
+										<li><a style="background-color:orange;" href="/whyWeAreDifferent" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+                        <section>
+							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Our Promise</h2>
+									<p>
+                                        Building your web presence shouldnt be a hassle. Find out the OFROOT promise.
+                                    </p>
+									<ul class="actions">
+										<li><a style="background-color:orange;" href="/ourpromise" class="button">Learn more</a></li>
 									</ul>
 								</div>
 							</div>
@@ -87,14 +101,10 @@
 					</section>
 
 				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
+					<section id="two" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>WHAT WE DO</h2>
-							<p>Here's a bit of the <span style="color:green;">D
-</span>
-<span style="color:blue;">N</span>
-<span style="color:orange;">A</span>
- of our studio, we are always adding technologies to our knowledge bank. </br>
+							<p>Here's a bit of the DNA of our studio, we are always adding technologies to our knowledge bank. </br>
                             If you dont see the tech you'd like to use in your project, no worries, we're tech stack agnostic. </br>
                             We can do it all!
                             </p>
@@ -122,7 +132,7 @@
 								<section>
 									<span class="icon solid major fa-link"></span>
 									<h3>Full Stack Development</h3>
-									<p>We use 2 stacks here at OFRoot; Laravel ( php framework ), Mysql, Amazon Web Services Elastic Beanstalk. Our second stack is The Django Framework ( Python ).</p>
+									<p>We use 2 stacks here at OFROOT; Laravel ( php framework ), Mysql, Amazon Web Services Elastic Beanstalk.</br> Our second stack is the Django Framework ( Python ).</p>
 								</section>
 								<section>
 									<span class="icon major fa-gem"></span>
@@ -137,33 +147,13 @@
 					</section>
 
 				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
+					<section id="three" class="wrapper style3 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
 							<p>Feel free to reach out by providing the following details.</p>
 							<div class="split style1">
-								<!-- <section>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-								</section> -->
-								<section>
+
+                            <section>
 									<ul class="contact">
 										<li>
 											<h3>Address</h3>
@@ -172,7 +162,7 @@
 										</li>
 										<li>
 											<h3>Email</h3>
-											<a href="#">dimitri.mcdaniel@ofroot.technology</a>
+											<a href="#">dimitri.mcdaniel@OFROOT.technology</a>
 										</li>
 										<li>
 											<h3>Phone</h3>
@@ -201,32 +191,43 @@
               <i class="fab fa-pinterest fa-lg white-text fa-2x mr-4"> </i>
             </a>
 
-            <a href="https://twitter.com/OfRootTweets?ref_src=twsrc%5Etfw" class="ml-3 twitter-follow-button" data-show-count="false">Follow @OfRootTweets</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/OFROOTTweets?ref_src=twsrc%5Etfw" class="ml-3 twitter-follow-button" data-show-count="false">Follow @OFROOTTweets</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 										</li>
 									</ul>
 								</section>
+                                <section>
+                                <a class="twitter-timeline" href="https://twitter.com/OFROOTTweets?ref_src=twsrc%5Etfw">Tweets by OFROOTTweets</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                </section>
+
+
+
+								<!-- <section>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><a href="" class="button submit">Send Message</a></li>
+										</ul>
+									</form>
+								</section> -->
+
 							</div>
 						</div>
 					</section>
 			</div>
-
 		<!-- Footer -->
-        <footer id="footer" class="wrapper alt">
-            <div class="inner">
-                <ul class="menu">
-                    <li>&copy; OfRoot. All rights reserved.</li>
-                </ul>
-            </div>
-        </footer>
-
-
-		<!-- Scripts -->
-			<script src="{{ URL::asset('js/jquery.min.js'); }}"></script>
-			<script src="{{ URL::asset('js/jquery.scrollex.min.js'); }}"></script>
-			<script src="{{ URL::asset('js/jquery.scrolly.min.js'); }}"></script>
-			<script src="{{ URL::asset('js/jquery.min.js'); }}"></script>
-			<script src="{{ URL::asset('js/breakpoints.min.js'); }}"></script>
-			<script src="{{ URL::asset('js/util.js'); }}"></script>
-			<script src="{{ URL::asset('js/main.js'); }}"></script>
+        <x-footer/>
 	</body>
 </html>
