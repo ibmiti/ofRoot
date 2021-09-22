@@ -58,7 +58,9 @@ Route::get('/', function () {
 |   related routes
 |-----------------------------------------------------------------
 */
-Route::get('/about', [ArticlesController::class, 'about']);
+Route::get('/capabilities', function(){
+    return view('capabilities');
+});
 
 /*
 |--------------------------------------------------------------------------

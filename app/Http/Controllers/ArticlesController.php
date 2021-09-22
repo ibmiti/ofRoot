@@ -18,47 +18,23 @@ class ArticlesController extends Controller
     {
 
         return view('articles.actions.index', [
-            'mostRecentArticles' => Articles::latest()->paginate(10),
-            'babyArticles'       => Articles::where('type','Babies')->latest()->paginate(10),
-            'childArticles'      => Articles::where('type', 'Children')->latest()->paginate(10),
-            'parentArticles'     => Articles::where('type', 'Parents')->latest()->paginate(10)
+            // 'mostRecentArticles' => Articles::latest()->paginate(10),
+            // 'babyArticles'       => Articles::where('type','Babies')->latest()->paginate(10),
+            // 'childArticles'      => Articles::where('type', 'Children')->latest()->paginate(10),
+            // 'parentArticles'     => Articles::where('type', 'Parents')->latest()->paginate(10)
         ]);
 
     }
 
-    // show all baby articles
-    public function indexBaby(){
-        $babyArticles = Articles::where('type','Babies')->latest()->paginate(10);
-        return view('articles.actions.indexBaby', ['babyArticles' => $babyArticles]);
-    }
+    // public function indexBaby(){
+    //     $babyArticles = Articles::where('type','Babies')->latest()->paginate(10);
+    //     return view('articles.actions.indexBaby', ['babyArticles' => $babyArticles]);
+    // }
 
-    // show all children articles
-    public function indexChild()
-    {
-        $childArticles = Articles::where('type', 'Children')->paginate(10);
-        return view('articles.actions.indexChild', ['childArticles' => $childArticles]);
-    }
-
-    // show all parent articles
-    public function indexParent(){
-        $parentArticles = Articles::where('type', 'Parents')->paginate(10);
-        return view('articles.actions.indexParent', ['parentArticles' => $parentArticles]);
-    }
-
-    public function about()
-    {
-
-        $babyArticles   = Articles::where('type','Babies')->take(2)->latest()->get();
-        $childArticles  = Articles::where('type','Children')->take(2)->latest()->get();
-        $parentArticles = Articles::where('type','Parents')->take(2)->latest()->get();
-
-        $articles   = [];
-        $articles[] = $babyArticles;
-        $articles[] = $childArticles;
-        $articles[] = $parentArticles;
-
-     return view('about', ['articles' => $articles]);
-    }
+    // returns view
+    // public function capabilities(){
+    //     return view('capabilities');
+    // }
 
 
     // /**
