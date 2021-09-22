@@ -162,7 +162,7 @@
 										</li>
 										<li>
 											<h3>Email</h3>
-											<a href="#">dimitri.mcdaniel@OFROOT.technology</a>
+											<a href="mailto:dimitri.mcdaniel@ofroot.technology">Send Us A Note</a>
 										</li>
 										<li>
 											<h3>Phone</h3>
