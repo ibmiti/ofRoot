@@ -150,24 +150,24 @@
 					<section id="three" class="wrapper style3 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
-							<p>Feel free to reach out by providing the following details.</p>
+							<p>Feel free to reach out by providing the following links.</p>
 							<div class="split style1">
 
                             <section>
 									<ul class="contact">
-										<li>
+										<!-- <li>
 											<h3>Address</h3>
 											<span>We Work Remotely<br />
 											</span>
-										</li>
+										</li> -->
 										<li>
 											<h3>Email</h3>
 											<a href="mailto:dimitri.mcdaniel@ofroot.technology">Send Us A Note</a>
 										</li>
-										<li>
+										<!-- <li>
 											<h3>Phone</h3>
 											<span>Coming Soon</span>
-										</li>
+										</li> -->
 										<li>
 											<h3>Social</h3>
 										  <!-- Facebook -->
