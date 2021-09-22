@@ -72,7 +72,7 @@
                                         Improving and preserving the human experience, and taking care of our planet.
                                     </p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li><a href="/ourmission" class="button">Learn more</a></li>
 									</ul>
 								</div>
 							</div>
@@ -212,6 +212,4 @@
 			<script src="{{ URL::asset('js/breakpoints.min.js'); }}"></script>
 			<script src="{{ URL::asset('js/util.js'); }}"></script>
 			<script src="{{ URL::asset('js/main.js'); }}"></script>
-
-	</body>
-</html>
+@endsection

@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ URL::asset('css/main.css') }}"/>
+    <noscript><link rel="stylesheet" href="{{  URL::asset('css/noscript.css') }}" /></noscript>
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/a7bffd41d3.js"></script>
@@ -14,116 +18,12 @@
 
     <title>OfRoot - @yield('title') </title>
 </head>
-<style>
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
-.col-lg  {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 300;
-    letter-spacing: .45px;
-    font-size: 26px;
-}
-.col-md {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 16px;
-    color: #555555;
-    line-height: 1.5;
-    letter-spacing: .45px;
-    margin: 2em 2em 2em 2em;
-    padding: 2em 100px 2em 100px;
-}
-.col-sm {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 16px;
-    color: #555555;
-    line-height: 1.5;
-    letter-spacing: .45px;
-    margin: 2em 2em 2em 2em;
-    padding: 2em 100px 2em 100px;
-}
-ul {
-    list-style-type: none;
-}
-body {
-    line-height: 2.0;
-    letter-spacing: .45px;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 300;
-    background-color: #fcf0fc;
-} */
+
+<body class="is-preload">
+
+    @yield('content')
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-</style>
-<!-- | details which navbar is served -->
-<!-- | this is a feature which can be turned on for various navbar setups -->
-@switch($uri = Request::getRequestUri())
-        @case($uri == '/welcome')
-            <x-navbar/>
-        @break
-        @case ($uri == '/babies')
-            <x-navbar/>
-        @break
-        @case($uri == '/kids')
-            <x-navbar/>
-        @break
-        @case($uri == '/guides')
-            <x-navbar/>
-        @break
-        @case($uri == '/health')
-            <x-navbar/>
-        @break
-        @case($uri == '/about')
-            <x-navbar/>
-        @break
-        @case ($uri == '/contact')
-            <x-navbar/>
-        @break
-        @case ($uri == '/articles')
-            <x-navbar/>
-        @break
-        <!-- this is temp. -->
-        @case($uri == '/')
-            <!--  this is landing page -->
-        @break
-        @case($uri)
-            <x-navbar/>
-        @break
-    @endswitch
-<body id="body" class="container" style="opacity: 0;">
-
-    <div class="row">
-        <div class="col-12">
-            @include('partials.flash-message')
-            @yield('content')
-        </div>
-    </div>
-
-<!-- div containing footer component -->
-<div class="row">
-    <div class="col-sm-12 text-center">
-        @php $uri = Request::getRequestUri(); @endphp
-        @if($uri !== '/createAdmin')
-
-            <x-footer />
-
-        @endif
-
-
-
-    </div>
-</div>
 <script type="text/javascript">
         var opacity = 0;
         var intervalID = 0;

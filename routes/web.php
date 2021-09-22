@@ -125,3 +125,6 @@ Route::get('/shop', [ShopController::class, 'show']);
 |
 */
 Route::get('/videos', [VideoController::class, 'show']);
+
+// return the mission view
+Route::get('/ourmission', function(){return view('ourmission');});
