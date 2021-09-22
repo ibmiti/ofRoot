@@ -72,60 +72,67 @@
 								</div>
 							</div>
 						</section>
-						<!-- <section>
+						<section>
 							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>WHY WE ARE DIFFERENT</h2>
+									<p>We have the ability to create turn-key or completely custom applications for your business. </p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li><a href="/whyWeAreDifferent" class="button">Learn more</a></li>
 									</ul>
 								</div>
 							</div>
-						</section> -->
+						</section>
 					</section>
 
 				<!-- Two -->
 					<section id="two" class="wrapper style3 fade-up">
 						<div class="inner">
-							<h2>What we do</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<h2>WHAT WE DO</h2>
+							<p>Here's a bit of the <span style="color:green;">D
+</span>
+<span style="color:blue;">N</span>
+<span style="color:orange;">A</span>
+ of our studio, we are always adding technologies to our knowledge bank. </br>
+                            If you dont see the tech you'd like to use in your project, no worries, we're tech stack agnostic. </br>
+                            We can do it all!
+                            </p>
 							<div class="features">
 								<section>
 									<span class="icon solid major fa-code"></span>
-									<h3>Lorem ipsum amet</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>UX / UI</h3>
+									<p>We customize our approach based on your brand, nothings cookie-cutter. We develop and produce based on best-possible end results</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-lock"></span>
-									<h3>Aliquam sed nullam</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Brand Identity</h3>
+									<p>We can help you shape your digital brand identity, from idea to production ready application.</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Web Development + Ecommerce</h3>
+									<p>We can help you build a landing page to bring more business or a full stack application to sell products online to millions of users.</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-desktop"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Business Strategy</h3>
+									<p>We can help you shape your ideas into a business.</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Full Stack Development</h3>
+									<p>We use 2 stacks here at OFRoot; Laravel ( php framework ), Mysql, Amazon Web Services Elastic Beanstalk. Our second stack is The Django Framework ( Python ).</p>
 								</section>
 								<section>
 									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Video Editing & Production</h3>
+									<p>Need video projects completed? We're on it.</p>
 								</section>
 							</div>
-							<ul class="actions">
+							<!-- <ul class="actions">
 								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul>
+							</ul> -->
 						</div>
 					</section>
 
@@ -135,7 +142,7 @@
 							<h2>Get in touch</h2>
 							<p>Feel free to reach out by providing the following details.</p>
 							<div class="split style1">
-								<section>
+								<!-- <section>
 									<form method="post" action="#">
 										<div class="fields">
 											<div class="field half">
@@ -155,7 +162,7 @@
 											<li><a href="" class="button submit">Send Message</a></li>
 										</ul>
 									</form>
-								</section>
+								</section> -->
 								<section>
 									<ul class="contact">
 										<li>
@@ -169,17 +176,32 @@
 										</li>
 										<li>
 											<h3>Phone</h3>
-											<span>( coming soon )</span>
+											<span>Coming Soon</span>
 										</li>
 										<li>
 											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
+										  <!-- Facebook -->
+            <!-- <a class="fb-ic">
+              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a> -->
+            <!-- Twitter -->
+            <a href="https://twitter.com/theBassinet" class="tw-ic">
+              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Linkedin -->
+            <!-- <a href="" class="li-ic">
+              <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a> -->
+            <!--Instagram-->
+            <a href="https://www.instagram.com/babysbassinet/" class="ins-ic">
+              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Pinterest-->
+            <a href="https://www.pinterest.com/Babys_Bassinet/" class="pin-ic">
+              <i class="fab fa-pinterest fa-lg white-text fa-2x mr-4"> </i>
+            </a>
+
+            <a href="https://twitter.com/OfRootTweets?ref_src=twsrc%5Etfw" class="ml-3 twitter-follow-button" data-show-count="false">Follow @OfRootTweets</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 										</li>
 									</ul>
 								</section>

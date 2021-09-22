@@ -68,6 +68,12 @@ Route::get('/ourmission', function(){return view('ourmission');});
 // return the ourpromise view
 Route::get('/ourpromise', function() { return view('ourpromise');});
 
+// return the whyWeAreDifferent view
+Route::get('/whyWeAreDifferent', function() { return view('whyWeAreDifferent');});
+
+
+
+
 /*
 |--------------------------------------------------------------------------
 | Contact related routes
