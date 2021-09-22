@@ -1,13 +1,24 @@
-@extends ('layouts.app')
-@section ('title', 'Our Mission')
+<!DOCTYPE HTML>
+<html>
+	<head>
+
+		<title>OFROOT Our Mission</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ URL::asset('css/main.css') }}"/>
+		<noscript><link rel="stylesheet" href="{{  URL::asset('css/noscript.css') }}" /></noscript>
+	</head>
+	<body class="is-preload">
+
 		<!-- Header -->
 			<header id="header">
-				<a href="index.html" class="title">OFROOT</a>
+				<a href="/" class="title">OFROOT</a>
 				<nav>
 					<ul>
 						<li><a href="/">Home</a></li>
-						<li><a href="/capabilities" class="active">Generic</a></li>
-						<li><a href="elements.html">Elements</a></li>
+						<li><a href="/capabilities">Capabilities</a></li>
+						<li><a href="/ourmission" class="active">Our Mission</a></li>
+                        <li><a href="/ourpromise">Our Promise</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -17,21 +28,31 @@
 				<!-- Main -->
 					<section id="main" class="wrapper">
 						<div class="inner">
-							<h1 class="major">A View Of Our Capabilities</h1>
+							<h1 class="major">A View Of Our Mission</h1>
 							<!-- <span class="image fit"><img src="https://ik.imagekit.io/haf84bjtqnp/new_tXWmDpCqj4x?updatedAt=1632297520551" alt=""/></span> -->
-							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+							<p>Improving and preserving the human experience, and taking care of our planet.</p>
+							<p>OfRoot's main aspirational goal is to vastly improve and preserve the human experience, whilst taking care of the planet we call home, no matter what we do lets do it for the ones and the thing's that matter the most. </p>
+                            <p>
+
+                            This is apart of our identity here at OfRoot; Helping where we can, where we must, where the needs are greatest.
+A portion of all proceeds will always go toward one of our named causes, and we will try our best to keep philantropic interest
+and organizations on our radar as we continue to operate as an organization.
+
+
+                            </p>
+
+                            <p>Thank you, this is our mission. Will you join us?
+                            </p>
 						</div>
 					</section>
-                    <a class="twitter-timeline text-center" href="https://twitter.com/OfRootTweets?ref_src=twsrc%5Etfw" width="100%;">
-                                Tweets by OfRootTweets</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 			</div>
 
 		<!-- Footer -->
 			<footer id="footer" class="wrapper alt">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; OfRoot. All rights reserved.</li>
 					</ul>
 				</div>
 			</footer>

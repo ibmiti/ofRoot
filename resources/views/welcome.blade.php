@@ -15,9 +15,6 @@
 					<nav>
 						<ul>
 							<li><a href="#intro">Welcome</a></li>
-                            <li><a class="twitter-timeline text-center" href="https://twitter.com/OfRootTweets?ref_src=twsrc%5Etfw" width="100%;">
-                                Tweets by OfRootTweets</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                            </li>
 							<li><a href="#one">Who we are</a></li>
 							<li><a href="#two">What we do</a></li>
 							<li><a href="#three">Get in touch</a></li>
@@ -37,10 +34,8 @@
 							<h1>OFROOT</h1>
 							<hr style="background-color:white;" width="50%">
 							<!-- Creating scalable technology for your business with current, secure, and trusted solutions; that way your tech worries, just like your business are up in the clouds. -->
-							<p style="color:white;">Creating scalable technology for your business with current, secure, and trusted solutions. </br>
-								We build sound software / web solutions, from video production, custom software tools </br>
-								to social media marketing and web/app hosting, even video games & AI.</br>
-							  If its digital, We build it, From the Root up.</p>
+							<p style="color:white;">Creating scalable technology for your business operations. </br>
+							  If its digital we build it, from the root up.</p>
 
 							<ul class="actions">
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
@@ -138,7 +133,7 @@
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<p>Feel free to reach out by providing the following details.</p>
 							<div class="split style1">
 								<section>
 									<form method="post" action="#">
@@ -165,17 +160,16 @@
 									<ul class="contact">
 										<li>
 											<h3>Address</h3>
-											<span>12345 Somewhere Road #654<br />
-											Nashville, TN 00000-0000<br />
-											USA</span>
+											<span>We Work Remotely<br />
+											</span>
 										</li>
 										<li>
 											<h3>Email</h3>
-											<a href="#">user@untitled.tld</a>
+											<a href="#">dimitri.mcdaniel@ofroot.technology</a>
 										</li>
 										<li>
 											<h3>Phone</h3>
-											<span>(000) 000-0000</span>
+											<span>( coming soon )</span>
 										</li>
 										<li>
 											<h3>Social</h3>
@@ -194,15 +188,15 @@
 					</section>
 			</div>
 
-
 		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
+        <footer id="footer" class="wrapper alt">
+            <div class="inner">
+                <ul class="menu">
+                    <li>&copy; OfRoot. All rights reserved.</li>
+                </ul>
+            </div>
+        </footer>
+
 
 		<!-- Scripts -->
 			<script src="{{ URL::asset('js/jquery.min.js'); }}"></script>
@@ -212,4 +206,5 @@
 			<script src="{{ URL::asset('js/breakpoints.min.js'); }}"></script>
 			<script src="{{ URL::asset('js/util.js'); }}"></script>
 			<script src="{{ URL::asset('js/main.js'); }}"></script>
-@endsection
+	</body>
+</html>

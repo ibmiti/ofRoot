@@ -1,7 +1,8 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>OFROOTS TEMPLATE 01 : Generic Page</title>
+
+		<title>OFROOT Our Promise</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{ URL::asset('css/main.css') }}"/>
@@ -15,8 +16,9 @@
 				<nav>
 					<ul>
 						<li><a href="/">Home</a></li>
-						<li><a href="/capabilities" class="active">Capabilities</a></li>
-						<li><a href="/ourmission">Our Mission</a></li>
+						<li><a href="/capabilities">Capabilities</a></li>
+						<li><a href="/ourmission" >Our Mission</a></li>
+                        <li><a href="/ourpromise" class="active">Our Promise</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -26,25 +28,25 @@
 				<!-- Main -->
 					<section id="main" class="wrapper">
 						<div class="inner">
-							<h1 class="major">A View Of Our Capabilities</h1>
+							<h1 class="major">A View Of Our Promise</h1>
 							<!-- <span class="image fit"><img src="https://ik.imagekit.io/haf84bjtqnp/new_tXWmDpCqj4x?updatedAt=1632297520551" alt=""/></span> -->
-                            <p style="color:white;">Creating scalable technology for your business with current, secure, and trusted solutions.
-								We build sound software / web solutions, from video production, custom software tools
-								to social media marketing and web/app hosting, even video games & AI.</br>
-							  If its digital, We build it, From the Root up.</p>
+							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
+							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
 						</div>
 					</section>
 
 			</div>
 
 		<!-- Footer -->
+			<!-- Footer -->
 			<footer id="footer" class="wrapper alt">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; OfRoot. All rights reserved.</li>
 					</ul>
 				</div>
 			</footer>
+
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

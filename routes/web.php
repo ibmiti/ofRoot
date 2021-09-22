@@ -62,6 +62,12 @@ Route::get('/capabilities', function(){
     return view('capabilities');
 });
 
+// return the mission view
+Route::get('/ourmission', function(){return view('ourmission');});
+
+// return the ourpromise view
+Route::get('/ourpromise', function() { return view('ourpromise');});
+
 /*
 |--------------------------------------------------------------------------
 | Contact related routes
@@ -126,5 +132,3 @@ Route::get('/shop', [ShopController::class, 'show']);
 */
 Route::get('/videos', [VideoController::class, 'show']);
 
-// return the mission view
-Route::get('/ourmission', function(){return view('ourmission');});
