@@ -3,7 +3,7 @@
 
         <!-- Header -->
         <header id="header">
-				<a href="/" class="title">OF<span style="color:orange;">(</span>ROOT<span style="color:orange;">)</span></a>
+				<a href="/" class="title"><mark>OFROOT</mark></a>
 				<nav>
                 <?php
         switch($uri = Request::getRequestUri()) {

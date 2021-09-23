@@ -46,11 +46,7 @@ Route::post('/admin', [LoginController::class, 'login'])->name('login');
 | // welcome route should have show all of the categories and then a list of latest articles
 */
 Route::get('/', function () {
-    // send all latest articles to bottom of welcome page, paginate by group of 10
-    $articles = Articles::latest()->paginate(10);
-    // associated images should be returned to view aswell.
-
-    return view('welcome', ['articles' => $articles]);
+    return view('welcome');
 });
 
 /*

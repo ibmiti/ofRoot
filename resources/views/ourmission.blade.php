@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="{{ URL::asset('css/main.css') }}"/>
 		<noscript><link rel="stylesheet" href="{{  URL::asset('css/noscript.css') }}" /></noscript>
 	</head>
-	<body class="is-preload">
+	<body class="is-preload" style="background-color:white;">
 
 		<!-- Header -->
 	<x-navbar/>
@@ -17,20 +17,17 @@
 				<!-- Main -->
 					<section id="main" class="wrapper">
 						<div class="inner">
-							<h1 class="major">A View Of Our Mission</h1>
+							<h1 class="major" style="color:black;">A View Of Our Mission</h1>
 							<!-- <span class="image fit"><img src="https://ik.imagekit.io/haf84bjtqnp/new_tXWmDpCqj4x?updatedAt=1632297520551" alt=""/></span> -->
-							<p>Improving and preserving the human experience, and taking care of our planet.</p>
-							<p>ofRoot's main aspirational goal is to vastly improve and preserve the human experience, whilst taking care of the planet we call home, no matter what we do lets do it for the ones and the thing's that matter the most. </p>
-                            <p>
-
-                            This is apart of our identity here at ofRoot; Helping where we can, where we must, where the needs are greatest.
-A portion of all proceeds will always go toward one of our named causes, and we will try our best to keep philantropic interest
-and organizations on our radar as we continue to operate as an organization.
-
-
+							<p style="color:black;">Improving and preserving the human experience and taking care of our planet.</br>
+                            </br>
+							    OFROOT’s main aspirational goal is to vastly improve and preserve the human experience while taking care of the planet we call home. No matter what let's do it for the ones and the things that matter the most!
                             </p>
-
-                            <p>Thank you, this is our mission. Will you join us?
+                            <p style="color:black;">
+                                Our identity here at ofRoot comes from helping where we can, where we must, where the needs are greatest. A portion of all proceeds will go toward one of our named causes. We will try our best to keep philanthropic interests and organizations on our radar as we continue to operate.
+                            </p>
+                            <p style="color:black;">
+                                Thank you, this is our mission. Will you join us?
                             </p>
 						</div>
 					</section>

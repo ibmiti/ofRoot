@@ -1,7 +1,8 @@
 /* new css  */
-
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 html {
-    letter-spacing: 3px;
+	font-family: 'Space Mono', monospace;
+    letter-spacing: 1.5px;
 }
 
 /* end of new css */
@@ -13,8 +14,6 @@ h1, h2, h3, h4 {
 p {
     color:white;
 }
-
-
 
 @import url(fontawesome-all.min.css);
 
@@ -3382,7 +3381,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #f09013;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3773,14 +3772,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #f09013;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #f09013, #b74e91);
+				background-image: -webkit-linear-gradient(to right, #f09013, #b74e91);
+				background-image: -ms-linear-gradient(to right, #f09013, #b74e91);
+				background-image: linear-gradient(to right, #f09013, #b74e91);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3869,7 +3868,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #fce6f4;
 						}
 
 		}

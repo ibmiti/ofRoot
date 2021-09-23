@@ -21,8 +21,6 @@
 						</ul>
 					</nav>
 				</div>
-
-
 			</section>
 
 		<!-- Wrapper -->
@@ -31,12 +29,11 @@
 				<!-- Intro -->
 					<section  style="background-color:white;" id="intro" class="wrapper fullscreen style1 fade-up">
 						<div class="inner">
-							<h1 style="color:black;">OF<span style="color:orange;">(</span>ROOT<span style="color:orange;">)</span></h1>
+                        <h1 style="color:black;">( OFROOT )</h1>
 							<hr style="background-color:orange;" width="50%">
 							<!-- Creating scalable technology for your business with current, secure, and trusted solutions; that way your tech worries, just like your business are up in the clouds. -->
-							<p style="color:black;">Creating scalable technology for your business operations. </br>
-							  If its digital we build it, from the root up.</p>
-
+							<p style="color:black;">Creating scalable technology for your business operations.</p>
+                            <p style="color:black;">If it's digital: we build it, from the root up.</p>
 							<ul class="actions">
 								<li><a href="#one" style="background-color:orange;" class="button scrolly">Learn more</a></li>
 							</ul>
@@ -45,9 +42,9 @@
 					</section>
 
 				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
+					<section id="one" class="wrapper style1 spotlights">
 						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+							<a href="#" class="image"><img src="https://images.unsplash.com/photo-1593182414299-87691c96801c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGFic3RyYWN0fGVufDB8MnwwfGJsYWNrX2FuZF93aGl0ZXw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" data-position="center center" height="100%;" width="100%;" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Our Capabilities</h2>
@@ -59,12 +56,13 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+							<a href="#" class="image"><img src="https://images.unsplash.com/photo-1518335923377-c2a677a5074d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGFic3RyYWN0fGVufDB8MnwwfGJsYWNrX2FuZF93aGl0ZXw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" data-position="top center" height="100%;" width="100%;" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Our Mission</h2>
 									<p>
-                                        Improving and preserving the human experience, and taking care of our planet.
+                                    Improving and preserving the human experience and taking care of our planet.
+
                                     </p>
 									<ul class="actions">
 										<li><a style="background-color:orange;" href="/ourmission" class="button">Learn more</a></li>
@@ -73,11 +71,12 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<a href="#" class="image"><img src="https://images.unsplash.com/photo-1532363285104-a1160a7cc855?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGFic3RyYWN0fGVufDB8MnwwfGJsYWNrX2FuZF93aGl0ZXw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" data-position="25% 25%"
+                            height="100%;" width="100%;"/></a>
 							<div class="content">
 								<div class="inner">
 									<h2>WHY WE ARE DIFFERENT</h2>
-									<p>We have the ability to create turn-key or completely custom applications for your business. </p>
+									<p>We can create turn-key or completely custom applications for your business.</p>
 									<ul class="actions">
 										<li><a style="background-color:orange;" href="/whyWeAreDifferent" class="button">Learn more</a></li>
 									</ul>
@@ -85,12 +84,12 @@
 							</div>
 						</section>
                         <section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+							<a href="#" class="image"><img src="https://images.unsplash.com/photo-1553476590-695189b18600?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YWJzdHJhY3R8ZW58MHwyfDB8YmxhY2tfYW5kX3doaXRlfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" data-position="top center" height="100%;" width="100%;" /> </a>
 							<div class="content">
 								<div class="inner">
 									<h2>Our Promise</h2>
 									<p>
-                                        Building your web presence shouldnt be a hassle. Find out the OFROOT promise.
+                                    Building your web presence shouldn't be a hassle. Find out the OFROOT promise.
                                     </p>
 									<ul class="actions">
 										<li><a style="background-color:orange;" href="/ourpromise" class="button">Learn more</a></li>
@@ -104,25 +103,25 @@
 					<section id="two" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>WHAT WE DO</h2>
-							<p>Here's a bit of the DNA of our studio, we are always adding technologies to our knowledge bank. </br>
-                            If you dont see the tech you'd like to use in your project, no worries, we're tech stack agnostic. </br>
-                            We can do it all!
+							<p>Here's a bit of the DNA of our studio we are always adding technologies to our knowledge bank.</br>
+                            If you don't see the tech you'd like to use in your project, no worries, we're tech stack agnostic. </br>
+                            <strong>We Can Do it All!</strong>
                             </p>
 							<div class="features">
 								<section>
 									<span class="icon solid major fa-code"></span>
 									<h3>UX / UI</h3>
-									<p>We customize our approach based on your brand, nothings cookie-cutter. We develop and produce based on best-possible end results</p>
+									<p>We customize our approach based on your brand, nothing cookie-cutter. We develop and produce based on best-possible results.</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-lock"></span>
 									<h3>Brand Identity</h3>
-									<p>We can help you shape your digital brand identity, from idea to production ready application.</p>
+									<p>We can help you shape your digital brand identity, from idea to production-ready application.</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-cog"></span>
 									<h3>Web Development + Ecommerce</h3>
-									<p>We can help you build a landing page to bring more business or a full stack application to sell products online to millions of users.</p>
+									<p>We can help you build a landing page to bring more business or a full-stack application to sell products online to millions of users.</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-desktop"></span>
@@ -132,7 +131,7 @@
 								<section>
 									<span class="icon solid major fa-link"></span>
 									<h3>Full Stack Development</h3>
-									<p>We use 2 stacks here at OFROOT; Laravel ( php framework ), Mysql, Amazon Web Services Elastic Beanstalk.</br> Our second stack is the Django Framework ( Python ).</p>
+									<p>We use 2 stacks here at OFROOT; Laravel ( PHP framework ), Mysql, Amazon Web Services Elastic Beanstalk.</br> <strong>Our second stack is the Django Framework ( Python )</strong>.</p>
 								</section>
 								<section>
 									<span class="icon major fa-gem"></span>
@@ -147,13 +146,13 @@
 					</section>
 
 				<!-- Three -->
-					<section id="three" class="wrapper style3 fade-up">
+					<section id="three" class="wrapper fade-up" style="background-color: white;">
 						<div class="inner">
-							<h2>Get in touch</h2>
-							<p>Feel free to reach out by providing the following links.</p>
+							<h2 style="color:black;">Get in touch</h2>
+							<p style="color:black;">Feel free to reach out by providing the following links.</p>
 							<div class="split style1">
 
-                            <section>
+                            <section style="color:black;">
 									<ul class="contact">
 										<!-- <li>
 											<h3>Address</h3>
